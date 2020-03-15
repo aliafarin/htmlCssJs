@@ -42,7 +42,7 @@
             <input placeholder="Email">
             <input placeholder="Password">
             <input placeholder="Confirm Password">
-            <button type="submit" value="Submit">Submit</button>
+            <button class="sButton" type="submit" value="Submit">Submit</button>
           </form>
         </div>
       </section>
@@ -69,14 +69,40 @@
             </div>
           </div>
         </div>
+
+        <!-- footer -->
         <footer class='footer'>
           <h4>LoopLAB</h4>
           <p>Copyright &copy;</p>
-          <a href="#" class="contact">Contact Us</a>
+          <a href="#" id="contact" class="contact">Contact Us</a>
         </footer>
       </section>
+
+      <!-- Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class='modal-header'>
+            <h4>Contact Us</h4>
+          </div>
+          <form>
+            <label>Name:</label>
+            <input>
+            <label>Email:</label>
+            <input>
+            <label>Message:</label>
+            <textarea></textarea>
+            <button class="sButton" type="submit" value="Submit">Submit</button>
+          </form>
+        </div>
+      
+      </div>
     </div>
   </div>
 </body>
 
 </html>
+
+<script src="Modal.js"></script>
