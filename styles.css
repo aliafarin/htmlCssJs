@@ -249,9 +249,8 @@ button:hover {
 }
 
 .footer {
-  position: absolute;
-  top: 1250px;
   background-color: #007bff;
+  display: block;
   width: 100%;
   height: auto;
   text-align: center;
@@ -278,10 +277,4 @@ button:hover {
 
 .contact:hover {
   background-color: white;
-}
-
-@media( max-width: 803px) {
-  .footer{
-    top: 1600px;
-  }
 }
